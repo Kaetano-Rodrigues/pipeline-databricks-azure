@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/kaetanokako23@gmail.com/pipeline-databricks-azure/noteboocks/inbound_to_bronze_python"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafactory_link",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "Ingestao_camada_silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/kaetanokako23@gmail.com/pipeline-databricks-azure/noteboocks/bronze_to_silver_python"
+				},
+				"linkedServiceName": {
+					"referenceName": "databricks_datafactory_link",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
