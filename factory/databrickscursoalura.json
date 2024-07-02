@@ -1,0 +1,9 @@
+{
+	"name": "databrickscursoalura",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ca7cb90d-add9-49d6-ac8b-dd3ed1f07207",
+		"tenantId": "4b782bbc-6bc1-4d2e-a00d-9418e8b080eb"
+	}
+}
